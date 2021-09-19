@@ -37,7 +37,8 @@ skinchanger
 
 https://forum.cfx.re/t/qbcore-framework/4116674
 
-7.) Use the included server.cfg for you server.
+7.) Use the included server.cfg for you server. click CONTROL + F and type "CHANGE_ME" and go through the file and change all the required varibles, if not sure what read the 
+comments made there or type it in in browser, its quiet simple ive added a mysql uri example.
 
 8.) Inject the database.sql file included in the pack to your database. Its quiet simple you click admin on APACHE on your XXAMP.
 Then you create a new database eg 'qb-core', click on it to open it and click 'operations' and then select the .sql file
