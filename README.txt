@@ -46,6 +46,8 @@ https://github.com/rocky6777/FIVEM-V2372-QBCORE-SERVER/blob/main/server.cfg
 Then you create a new database eg 'qb-core', click on it to open it and click 'operations' and then select the .sql file
 and press 'GO' this should inject all the required .sql so you don't have to copy and paste it from all the qb mods.
 
+https://github.com/rocky6777/FIVEM-V2372-QBCORE-SERVER/blob/main/database.sql
+
 9.) run server and enjoy server better than most rp servers.
 
 
