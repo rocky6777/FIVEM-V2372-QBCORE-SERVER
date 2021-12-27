@@ -1,0 +1,8 @@
+cd Desktop
+cd FXServer
+cd cfx-server-data
+cd resources
+cd [local]
+
+git clone https://github.com/PLOKMJNB/FiveM-Civ-Car-Pack && \
+git clone https://github.com/rocky6777/UnLoadNorthYankton
