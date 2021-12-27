@@ -51,6 +51,11 @@ STEP 6 - Manually install the remaining resources in ItemsThatNeedToBeInstalledM
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+Also when you extract the resources for the Server, you will have to extract the prison map as there is 3 files in side of it which need to be put in local.
+Also there is the hospital maps that need to be extracted and 1 more I think just look for errors or check files.
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 HOW TO IMPORT SQL FILES?
 
 #1 INSTALL XAMPP
@@ -64,6 +69,8 @@ HOW TO IMPORT SQL FILES?
 (Go  button is at bottom right)
 (make sure to import qb-core first)
 
+
+
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 How to RUN SERVER?
@@ -76,3 +83,7 @@ should be something like this: C:/Users/[your username on the pc]/Desktop/FXServ
 5.) make sure you imported all .sql and your database is running
 and that have done all of the steps before this, make sure to change the last line of server.cfg ("change me")
 6.) run the .bat in main folder to start server.
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
