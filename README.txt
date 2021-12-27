@@ -1,54 +1,78 @@
--1.( INSTALL XXAMP
+WHERE TO PLACE FXSERVER FOLDER?
 
-0.) install fxserver with local files.
+PLACE FXSERVER ON YOUR DESKTOP
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+HOW TO INSTALL artifact FOLDER :
+
+STEP 1 - DOWNLOAD LATEST OPTIONAL BUILD
 
 https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
 
-https://github.com/citizenfx/cfx-server-data
+STEP 3 - MAKE SURE artifact folder is empty and EXTRACT ZIP TO artifact FOLDER.
 
-put all mods in [local] file.
 
-1.) Remove North Yankton 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-https://github.com/rocky6777/UnLoadNorthYankton
+HOW TO INSTALL cfx-server-data FOLDER:
 
-2.) Install Cayo Perico 
 
-https://forum.cfx.re/t/the-cayo-perico-island-available-for-fivem/1897446
+STEP 1 - 2 OpeN GIT type this
 
-3.) Install Bob IPL 74
+cd Desktop
+cd FXServer
+git clone https://github.com/citizenfx/cfx-server-data.git
 
-https://github.com/Bob74/bob74_ipl
+STEP 2 - CLOSE GIT
 
-4.) Add custom Cars
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-https://github.com/PLOKMJNB/FiveM-Civ-Car-Pack
+HOW TO CHANGE server.cfg?
 
-5.) MYSQL DEPENDENCIES (Type the name and add fivem to the end and you should find the github repo for these easily )
+Open the server.cfg provided and go through it to the end and do the things that are hashed out.
+And then place it in your cfx-server-data
 
-CRON
-ASYNC MYSQL
-ASYNC
-oxmysql (QBCORE)
-ghmattimysql (QBCORE)
-skinchanger
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-6.) DOWNLOAD ALL QBCORE RESOURCES and put in resource file.
+HOW TO INSTALL FIVEM RESOURCES?
 
-https://forum.cfx.re/t/qbcore-framework/4116674
+STEP 1 - OPEN GIT WITH ADMIN
 
-7.) Use the included server.cfg for you server. click CONTROL + F and type "CHANGE_ME" and go through the file and change all the required varibles, if not sure what read the 
-comments made there or type it in in browser, its quiet simple ive added a mysql uri example.
+STEP 3 - right click & paste the contents of InstallQBCore.txt
 
-https://github.com/rocky6777/FIVEM-V2372-QBCORE-SERVER/blob/main/server.cfg
+STEP 4 - CLOSE GIT
 
-8.) Inject the database.sql file included in the pack to your database. Its quiet simple you click admin on APACHE on your XXAMP.
-Then you create a new database eg 'qb-core', click on it to open it and click 'operations' and then select the .sql file
-and press 'GO' this should inject all the required .sql so you don't have to copy and paste it from all the qb mods.
-
-https://github.com/rocky6777/FIVEM-V2372-QBCORE-SERVER/blob/main/database.sql
-
-9.) run server and enjoy server better than most rp servers.
+STEP 5 Open Git ,  right click & paste the contents of InstallOther.txt
 
 
 
+STEP 6 - Manually install the remaining resources in ItemsThatNeedToBeInstalledManually.txt by drag and drop to [local]
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+HOW TO IMPORT SQL FILES?
+
+#1 INSTALL XAMPP
+#2 START APACHE AND MYSQL
+#3 CLICK ADMIN ON MYSQL
+#4 ON THE LEFT CLICK "New" IN THE COLUMN
+#5 TYPE "qbcore" FOR THE DATABASE NAME, CLICK CREATE.
+
+6. Click on qbcore and click on IMPORT, should be located in the middle of the screen at the top.
+7. Open every file seperately in SQLFiles and then click Go for each of them. 
+(Go  button is at bottom right)
+(make sure to import qb-core first)
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+How to RUN SERVER?
+
+1.) Click on artifact folder
+2.) run CitizenFX once name your server and when it give you 4 options click Local Server Data.
+3.) give path to your cfx-server-data folder
+should be something like this: C:/Users/[your username on the pc]/Desktop/FXServer/cfx-server-data
+4. When you have finished all the steps on the website close the server and the browser.
+5.) make sure you imported all .sql and your database is running
+and that have done all of the steps before this, make sure to change the last line of server.cfg ("change me")
+6.) run the .bat in main folder to start server.
