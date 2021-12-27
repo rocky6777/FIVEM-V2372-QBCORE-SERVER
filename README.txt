@@ -1,6 +1,18 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+This is the easiet way to make the server just download this :
+
+https://drive.google.com/file/d/1ouRLpvh-Lb9mdrEH6veiZWIuVYJqcTWW/view
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
 WHERE TO PLACE FXSERVER FOLDER?
 
 PLACE FXSERVER ON YOUR DESKTOP
+
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
